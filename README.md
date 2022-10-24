@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/correa0105/CaptacaoLead-UsinaDoCorpo-NodeJS?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/correa0105/CaptacaoLead-UsinaDoCorpo-NodeJS?style=for-the-badge)
 
-<img src="exemplo.PNG" alt="Exemplo do Projeto">
+<img src="exemplo.png" alt="Exemplo do Projeto">
 
 # ☕ Descrição do Projeto
 

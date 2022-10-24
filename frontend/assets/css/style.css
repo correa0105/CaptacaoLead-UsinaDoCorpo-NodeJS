@@ -1,0 +1,157 @@
+/* MAIN PAGE */
+
+.main-content {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.main-content-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main-content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
+}
+
+.logo {
+    width: 18rem;
+}
+
+.main-content--titulo {
+    font-weight: 900;
+    font-size: 3.2rem;
+    text-align: center;
+    color: #FF6B49;
+}
+
+.main-content--subtitulo {
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.input-modelo {
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 2.5rem;
+    padding: 1.5rem;
+    outline: none;
+    color: #FFFFFF;
+}
+
+.input-modelo::placeholder {
+    color: #FFFFFF;
+}
+
+#btn-enviar {
+    margin-top: 2.2rem;
+    font-weight: 800;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    border-radius: 2.5rem;
+    padding: 1rem;
+    outline: none;
+    background: #FF6B49;
+    color: #252525;
+    cursor: pointer;
+}
+
+#btn-enviar:hover {
+    background: #ff603c;
+}
+
+.select-academia-title {
+    font-weight: 900;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#select-academia {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    background-color: #ff603c;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    outline: none;
+}
+
+.msg-footer {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+    color: #FF6B49;
+    margin-top: 2.4rem;
+}
+
+.msg-footer>span {
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 414px) {
+    .main-content--titulo {
+        font-size: 3.4rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 52.5%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-content {
+        width: 75%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main-content-form {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .main-content-form-container {
+        width: 88%;
+        align-items: flex-end;
+    }
+
+    .main-content--titulo {
+        text-align: right;
+        font-size: 4.3rem;
+    }
+
+    .main-content--subtitulo {
+        text-align: right;
+        margin-bottom: 0;
+        font-size: 2.2rem;
+    }
+
+    .msg-footer {
+        display: block;
+        font-size: 1.7rem;
+    }
+}

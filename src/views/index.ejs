@@ -1,0 +1,48 @@
+<%- include("includes/head"); %>
+
+    <main class="background-gray">
+        <div class="main-content">
+            <div class="main-content-hidden">
+            </div>
+            <div class="main-content-form">
+                <div class="main-content-form-container">
+                    <img class="logo" src="./assets/img/logo_usina.png" alt="Logotipo Usina do Corpo">
+                    <h1 class="main-content--titulo">QUER SABER NOSSOS VALORES?</h1>
+                    <p class="main-content--subtitulo">Se inscreva e garanta um desconto especial em nossos planos.</p>
+                    <form action="/captacaolead" id="captacao-lead" method="POST">
+                        <input class="input-modelo" id="nome" type="text" placeholder="nome" name="name" required>
+                        <input class="input-modelo" id="email" type="email" placeholder="e-mail" name="email" required>
+                        <input class="input-modelo" id="whatsapp" type="tel" placeholder="whats app" name="tel"
+                            required>
+                        <h1 class="select-academia-title">SELECIONE SUA UNIDADE</h1>
+                        <select name="academia" id="select-academia">
+                            <option value="Andradas">Andradas</option>
+                            <option value="Bento">Bento</option>
+                            <option value="Protasio">Protasio</option>
+                            <option value="Wenceslau">Wenceslau</option>
+                            <option value="24 de Outubro">24 de Outubro</option>
+                            <option value="Mauricio Cardoso">Mauricio Cardoso</option>
+                            <option value="Novo Hamburgo">Novo Hamburgo</option>
+                            <option value="Gravatai Centro">Gravatai Centro</option>
+                            <option value="Gravatai 67">Gravatai 67</option>
+                            <option value="Cachoeirinha">Cachoeirinha</option>
+                            <option value="Canoas Centro">Canoas Centro</option>
+                            <option value="Boqueirão">Boqueirão</option>
+                            <option value="Viamão">Viamão</option>
+                            <option value="Alvorada">Alvorada</option>
+                            <option value="São Leopoldo">São Leopoldo</option>
+                            <option value="Caxias Shopping">Caxias Shopping</option>
+                            <option value="Caxias Centro">Caxias Centro</option>
+                            <option value="Azenha">Azenha</option>
+                            <option value="Dr Flores">Dr Flores</option>
+                            <option value="Cavalhada">Cavalhada</option>
+                        </select>
+                        <button id="btn-enviar" type="submit">INSCREVA-SE</button>
+                    </form>
+                </div>
+                <p class="msg-footer">Em 24h entraremos em contato <span>por E-mail e pelo Whats App</span></p>
+            </div>
+        </div>
+    </main>
+
+<%- include("includes/footer"); %>
